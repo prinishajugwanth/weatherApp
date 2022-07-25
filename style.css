@@ -2,12 +2,15 @@ div {
   display: block;
 }
 
-.left_block {
-  background-image: url(https://s3.amazonaws.com/shecodesio-production/uploads/files/000/041/587/original/sunshine.jpeg?1658731857);
+.card {
   background-size: cover;
   border-radius: 8px;
 }
-.col-md-5 {
-  flex: 0 0 auto;
-  width: fit-content;
+.searchBtn {
+  justify-content: center;
+}
+
+.locationBtn {
+  display: inline;
+  text-align: center;
 }
